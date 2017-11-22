@@ -7,7 +7,7 @@ class App extends Component {
   render() {
 
     let studentInfo = {name: "Wayn", age: 26, grade: "O-Level"};
-
+    let variab = "abc";
     return (
       <div className="App">
         <header className="App-header">
