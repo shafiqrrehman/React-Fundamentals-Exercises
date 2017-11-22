@@ -7,9 +7,10 @@ class App extends Component {
     return (
       <div className="container top">
         <div className="jumbotron">
-            <Clock />
-            <h1 className="display-3">Hello, world!</h1>
-            <p className="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <h1 className="display-3"> 
+              <Clock /> 
+            </h1>
+            <p className="lead">This is a simple updating Clock, using state component of React.</p>
         </div>
       </div>
     );
