@@ -20,7 +20,9 @@ export default class Clock extends Component{
     render(){
         return(
             <div>
+                <h1>Current Time using React State:</h1>
                 {this.state.currentTime}
+                <p className="lead">This is a simple updating Clock, using state component of React.</p>
             </div>
         );
     }
