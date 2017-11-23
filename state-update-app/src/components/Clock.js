@@ -10,7 +10,6 @@ export default class Clock extends Component{
 
     launchClock(){
         setInterval(()=>{
-            console.log("Updating time...");
             this.setState({
                 currentTime: (new Date()).toLocaleString()
             });
