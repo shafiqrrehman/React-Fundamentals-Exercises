@@ -36,7 +36,7 @@ launchCounter(){
       <div className="container top">
         <div className="jumbotron">
         <h1>Analog and Digital clock:</h1>
-        
+        <br />
         <Analog time={this.state.currentTime} />
             <br />
             <h2>
