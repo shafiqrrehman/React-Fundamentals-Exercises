@@ -35,7 +35,8 @@ launchCounter(){
     return (
       <div className="container top">
         <div className="jumbotron">
-        <h1>Current Time using React State:</h1>
+        <h1>Analog and Digital clock:</h1>
+        
         <Analog time={this.state.currentTime} />
             <br />
             <h2>
