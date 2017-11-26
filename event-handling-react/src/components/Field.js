@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import './../App.css';
 
 export default class Field extends Component{
 
@@ -13,7 +14,7 @@ export default class Field extends Component{
     toggleColor(){
         if (this.state.color === "Hotpink") {
             this.setState({
-                color: "yellow"
+                color: "Yellow"
            });
         } else {
             this.setState({
@@ -22,15 +23,22 @@ export default class Field extends Component{
         }
     }
 
+    changeColor(event){
+        this.setState({
+            color: event.target.value
+        });
+    }
+
     render(){
         
         const styleObj = {
-            backgroundColor: this.state.color
+            backgroundColor: this.state.color,
         }
 
         return(
-            <div style={styleObj}>
+            <div style={styleObj} id="dynamic">
             <h2 onClick={this.toggleColor.bind(this)}>{this.state.color}</h2>
+            <input value={this.state.color} onChange={this.changeColor.bind(this)}/>
             </div>
         );
     }
