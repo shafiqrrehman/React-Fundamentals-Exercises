@@ -6,8 +6,8 @@ export default class Shown extends Component {
         console.log(this.props);
         return (
             <div>
-                <h1>{this.props.values.name}</h1>
-                <h1>{this.props.values.password}</h1>
+                <p>{this.props.values.name}</p>
+                <p>{this.props.values.password}</p>
             </div>
         );
     }
