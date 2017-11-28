@@ -28,7 +28,7 @@ export default class Form extends Component {
         let showcommponent = ""
         if(this.state.show === true)
         showcommponent =  <Shown  values = {this.state}/>
-                  console.log(showcommponent);
+                  //console.log(showcommponent);
         return (
             <div>
                 <form onSubmit={this.handleSubmit}>
