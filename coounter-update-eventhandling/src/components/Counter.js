@@ -21,9 +21,7 @@ export default class Counter extends Component {
         return (
             <div>
                 <ShowRecord counter = {this.state.counterUpdate} />
-                <form onSubmit={this.handleSubmit}>
-                <input type="submit" value="Click for Counter" />
-                </form>
+                <button onClick={this.handleSubmit}>Click for Counter</button>
             </div>
         );
     }
