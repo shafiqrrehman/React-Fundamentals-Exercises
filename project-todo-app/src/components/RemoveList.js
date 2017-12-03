@@ -6,7 +6,7 @@ export default class RemoveList extends Component {
 
         let {id,todo,onRemove} = this.props;
 
-        return(
+        return (
             <li>{todo} <button onClick={() => onRemove(id)}>x</button> </li>
         );
     }
