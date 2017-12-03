@@ -7,6 +7,10 @@
   height: 80px;
 }
 
+a {
+  color: white;
+}
+
 .App-header {
   background-color: #222;
   width: 450px;
