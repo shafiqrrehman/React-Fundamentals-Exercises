@@ -42,7 +42,7 @@ export default class Todo extends Component {
     render() {
         return(
             <div className="alignment">
-                <p>Todo Count: {this.state.todos.length} </p>
+                {/* <p>Todo Count: {this.state.todos.length} </p> */}
                 <ul>
                     { this.state.todos.map((todo, index) => {
                         return(<RemoveList id={index} key={index} todo={todo} onRemove={() => this.removeTodo(index)} />)
