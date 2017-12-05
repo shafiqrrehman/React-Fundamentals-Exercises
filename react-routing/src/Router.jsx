@@ -1,6 +1,6 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-class Router extends Component {
+class Router extends React.Component {
 
     constructor(props) {
         super(props);
