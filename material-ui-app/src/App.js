@@ -14,7 +14,7 @@ class App extends Component {
     return (
       <div>
         <AppBar
-          title="Los Blancos"
+          title="Employees List"
           iconClassNameRight="muidocs-icon-navigation-expand-more"
         />
 
